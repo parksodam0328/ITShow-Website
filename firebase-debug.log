@@ -1,0 +1,41 @@
+[debug] [2018-06-11T12:09:41.292Z] ----------------------------------------------------------------------
+[debug] [2018-06-11T12:09:41.294Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Mirim\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase init hm
+[debug] [2018-06-11T12:09:41.294Z] CLI Version:   3.18.6
+[debug] [2018-06-11T12:09:41.294Z] Platform:      win32
+[debug] [2018-06-11T12:09:41.294Z] Node Version:  v8.11.2
+[debug] [2018-06-11T12:09:41.294Z] Time:          Mon Jun 11 2018 21:09:41 GMT+0900 (대한민국 표준시)
+[debug] [2018-06-11T12:09:41.294Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-06-11T12:09:41.300Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2018-06-11T12:09:41.301Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\ITShow-Website
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2018-06-11T12:09:45.643Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+  
+ Mon Jun 11 2018 21:09:45 GMT+0900 (대한민국 표준시)
+[debug] [2018-06-11T12:09:46.642Z] <<< HTTP RESPONSE 200
+[info] 
+=== Hm Setup
+[debug] [2018-06-11T12:09:52.321Z] TypeError: features[nextFeature] is not a function
+    at init (C:\Users\Mirim\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:13:49)
+    at C:\Users\Mirim\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:14:14
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[error] 
+[error] Error: An unexpected error has occurred.
